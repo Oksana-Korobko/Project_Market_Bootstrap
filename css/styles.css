@@ -13,9 +13,23 @@ body {
   background-color: white;
   color: #1f1f1f;
 }
+.header-adv {
+  background-color: #c2e8ce;
+  height: 50px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-main {
+  display: flex;
+  justify-content: space-between;
+}
 .navbar {
   background-color: white !important;
+}
+.navbar-brand {
+  margin-right: 30px;
 }
 .navbar-nav {
   gap: 20px;
@@ -27,16 +41,23 @@ body {
 .form-select {
   border: 0;
 }
-select:active, select:focus{
-  outline:none
+select:active,
+select:focus {
+  outline: none;
 }
 
 .menu-item {
   width: 100px;
-  
 }
 
 .text {
   color: #ff8126;
   font-family: var(--fontAccent);
+}
+
+.navbar-buttons {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
