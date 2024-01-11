@@ -13,8 +13,27 @@ body {
   background-color: white;
   color: #1f1f1f;
 }
+
+.navbar {
+  background-color: white !important;
+}
+.navbar-nav {
+  gap: 20px;
+}
+.form-select-sm {
+  font-size: 15px !important;
+  max-width: 150px;
+}
 .form-select {
   border: 0;
+}
+select:active, select:focus{
+  outline:none
+}
+
+.menu-item {
+  width: 100px;
+  
 }
 
 .text {
